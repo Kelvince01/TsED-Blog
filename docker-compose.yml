@@ -16,7 +16,8 @@ services:
     ports:
       - '3306:3306'
     environment:
-      MYSQL_ROOT_PASSWORD: 
-      MYSQL_USER: root
-      MYSQL_PASSWORD: 
+      # MYSQL_ROOT_PASSWORD:
+      MYSQL_ALLOW_EMPTY_PASSWORD: true
+      # MYSQL_USER: root
+      # MYSQL_PASSWORD:
       MYSQL_DATABASE: blog
